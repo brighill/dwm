@@ -49,6 +49,9 @@ static const Rule rules[] = {
     { "Gimp",     NULL,       NULL,         0,              1,           0,           0,        -1 },
     { "Firefox",  NULL,       NULL,         1 << 8,         0,           0,          -1,        -1 },
     { "St",       NULL,       NULL,         0,              0,           1,           0,        -1 },
+    { "wechat.exe",  NULL,    NULL,         0,              1,           0,           1,        -1 },
+    { "QQ.exe",   NULL,       NULL,         0,              1,           0,           1,        -1 },
+    { "Wine",     NULL,       NULL,         0,              1,           0,           1,        -1 },
     { NULL,       NULL,     "Event Tester", 0,              0,           0,           1,        -1 }, /* xev */
 	{ NULL,		  "spterm",	  NULL,		SPTAG(0),		    1,			 1, 		  0,	  	-1 },
 	{ NULL,		  "spfm",	  NULL,		SPTAG(1),		    1,			 1, 		  0,	  	-1 },
